@@ -1,25 +1,15 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 public class Customer {
 
+    private UUID id;
     private String userName;
     private String email;
     private List<Address> address;
 
     //overloaded constructors due to the need for two options
-
-    public Customer(String userName, String email) {
-        this.userName = userName;
-        this.email = email;
-    }
-
-    public Customer(String userName, String email, List<Address> address) {
-        this.userName = userName;
-        this.email = email;
-        this.address = address;
-    }
-
 
 
     //type name;
@@ -29,6 +19,24 @@ public class Customer {
     //List preferred - polymorphism
     //Always put interface portion - Interface abc = new Class(); ---> polymorphism
 
+
+    public Customer(UUID id, String userName, String email) {
+        this.id = id;
+        this.userName = userName;
+        this.email = email;
+    }
+
+    public Customer(UUID id, String userName, String email, List<Address> address) {
+        this.id = id;
+        this.userName = userName;
+        this.email = email;
+        this.address = address;
+    }
+
+
+    public UUID getId() {
+        return id;
+    }
 
     public String getUserName() {
         return userName;
@@ -41,5 +49,4 @@ public class Customer {
     public List<Address> getAddress() {
         return address;
     }
-
 }
