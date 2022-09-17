@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        //createCustomer();
-        //createProduct();
-        //createCategory();
-        //createBalance();
-        //createDiscount();
+        DataGenerator.createCustomer();
+        DataGenerator.createProduct();
+        DataGenerator.createCategory();
+        DataGenerator.createBalance();
+        DataGenerator.createDiscount();
 
 
 
