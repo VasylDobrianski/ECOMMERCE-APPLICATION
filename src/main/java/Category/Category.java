@@ -15,4 +15,15 @@ public abstract class Category {
 
     public abstract LocalDate findDeliveryDueDate();
 
+    public String generateCategoryCode(){
+        return id.toString().substring(0,8).concat("-").concat(name.substring(0,2));
+    }
+
+    public UUID getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
 }

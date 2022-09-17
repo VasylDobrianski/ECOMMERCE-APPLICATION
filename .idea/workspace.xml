@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f982073c-0f4d-4219-b59c-b564a107302d" name="Changes" comment="Sample customer creation completed - Product setup">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Category/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Category/Electronic.java" afterDir="false" />
+    <list default="true" id="f982073c-0f4d-4219-b59c-b564a107302d" name="Changes" comment="Product / Category / Delivery - Setup">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Category/Furniture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Category/SkinCare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Category/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Category/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Category/Electronic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Category/Electronic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662070404033</updated>
       <workItem from="1662070405216" duration="5441000" />
-      <workItem from="1663442252580" duration="7946000" />
+      <workItem from="1663442252580" duration="8684000" />
     </task>
     <task id="LOCAL-00001" summary="Address for Customer created">
       <created>1662072150338</created>
@@ -100,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663450484134</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Product / Category / Delivery - Setup">
+      <created>1663453172305</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663453172305</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +131,7 @@
     <MESSAGE value="Customer created - UUID / two constructor build / no setters" />
     <MESSAGE value="Create customer/address - List" />
     <MESSAGE value="Sample customer creation completed - Product setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sample customer creation completed - Product setup" />
+    <MESSAGE value="Product / Category / Delivery - Setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product / Category / Delivery - Setup" />
   </component>
 </project>
