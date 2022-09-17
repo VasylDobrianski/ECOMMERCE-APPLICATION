@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f982073c-0f4d-4219-b59c-b564a107302d" name="Changes" comment="Customer created - UUID / two constructor build / no setters">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DataGenerator.java" afterDir="false" />
+    <list default="true" id="f982073c-0f4d-4219-b59c-b564a107302d" name="Changes" comment="Create customer/address - List">
+      <change afterPath="$PROJECT_DIR$/src/main/java/StaticConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +41,20 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ECOMMERCE-APPLICATION" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662070404033</updated>
       <workItem from="1662070405216" duration="5441000" />
-      <workItem from="1663442252580" duration="3880000" />
+      <workItem from="1663442252580" duration="5152000" />
     </task>
     <task id="LOCAL-00001" summary="Address for Customer created">
       <created>1662072150338</created>
@@ -73,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662079924769</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create customer/address - List">
+      <created>1663449108211</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663449108211</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Address for Customer created" />
     <MESSAGE value="Customer created - UUID / two constructor build / no setters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Customer created - UUID / two constructor build / no setters" />
+    <MESSAGE value="Create customer/address - List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create customer/address - List" />
   </component>
 </project>
