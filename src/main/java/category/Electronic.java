@@ -1,6 +1,6 @@
-package Category;
+package category;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.UUID;
 
 public class Electronic extends Category{
@@ -11,8 +11,9 @@ public class Electronic extends Category{
     }
 
     @Override
-    public LocalDate findDeliveryDueDate() {
-        return null;
+    public LocalDateTime findDeliveryDueDate() {
+        LocalDateTime localDateTime = LocalDateTime.now();
+        return localDateTime.plusDays(4);
     }
 
     @Override
