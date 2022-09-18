@@ -108,10 +108,23 @@ public class Main {
                                 System.out.println(e.getMessage());
                             }
                         }
+
+                        String productId = scanner.next();
+
+                        try {
+                            Product product = findProductById(productId);
+                            if (!putItemToCartIfStockAvailable(cart,product)){
+                                System.out.println("Stock is insufficient - please try again");
+                                continue;
+                            }
+                        } catch (Exception e) {
+                            System.out.println("Product does not exist - please try again");
+                            continue;
+                        }
+
                     }
-
-
                     break;
+
                 case 6: //See Cart
 
                     break;
@@ -129,6 +142,15 @@ public class Main {
 
         }
 
+    }
+
+    private static Product findProductById(String productId) throws Exception {
+        for (Product product : StaticConstants.PRODUCT_LIST){
+            if (product.getId().toString().equals(productId)){
+                return product;
+            }
+        }
+        throw new Exception("Product not found");
     }
 
 
