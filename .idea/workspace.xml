@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f982073c-0f4d-4219-b59c-b564a107302d" name="Changes" comment="Balance/Gift Card Balance - adjusted">
+    <list default="true" id="f982073c-0f4d-4219-b59c-b564a107302d" name="Changes" comment="Scanner(MENU) - Started">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
@@ -63,7 +63,7 @@
       <updated>1662070404033</updated>
       <workItem from="1662070405216" duration="5441000" />
       <workItem from="1663442252580" duration="14803000" />
-      <workItem from="1663471742602" duration="6222000" />
+      <workItem from="1663471742602" duration="7330000" />
     </task>
     <task id="LOCAL-00001" summary="Address for Customer created">
       <created>1662072150338</created>
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663477449593</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Scanner(MENU) - Started">
+      <created>1663478540575</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663478540575</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +193,7 @@
     <MESSAGE value="Balance increase parameters updated" />
     <MESSAGE value="Balance/Gift Card Balance - Database samples created and linked" />
     <MESSAGE value="Balance/Gift Card Balance - adjusted" />
-    <option name="LAST_COMMIT_MESSAGE" value="Balance/Gift Card Balance - adjusted" />
+    <MESSAGE value="Scanner(MENU) - Started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scanner(MENU) - Started" />
   </component>
 </project>
