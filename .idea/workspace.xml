@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f982073c-0f4d-4219-b59c-b564a107302d" name="Changes" comment="Balance increase parameters updated">
+    <list default="true" id="f982073c-0f4d-4219-b59c-b564a107302d" name="Changes" comment="Balance/Gift Card Balance - Database samples created and linked">
+      <change afterPath="$PROJECT_DIR$/src/main/java/discount/AmountBasedDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/discount/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/discount/RateBasedDiscount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StaticConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StaticConstants.java" afterDir="false" />
@@ -64,7 +67,7 @@
       <updated>1662070404033</updated>
       <workItem from="1662070405216" duration="5441000" />
       <workItem from="1663442252580" duration="14803000" />
-      <workItem from="1663471742602" duration="3711000" />
+      <workItem from="1663471742602" duration="5400000" />
     </task>
     <task id="LOCAL-00001" summary="Address for Customer created">
       <created>1662072150338</created>
@@ -143,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663475096296</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Balance/Gift Card Balance - Database samples created and linked">
+      <created>1663475764900</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663475764900</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +181,7 @@
     <MESSAGE value="Sample Product creation completed - Product database completed" />
     <MESSAGE value="Gift Card / Customer Balance - Setup created" />
     <MESSAGE value="Balance increase parameters updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Balance increase parameters updated" />
+    <MESSAGE value="Balance/Gift Card Balance - Database samples created and linked" />
+    <option name="LAST_COMMIT_MESSAGE" value="Balance/Gift Card Balance - Database samples created and linked" />
   </component>
 </project>
