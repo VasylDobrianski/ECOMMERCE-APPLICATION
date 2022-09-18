@@ -8,7 +8,6 @@ import category.SkinCare;
 import discount.AmountBasedDiscount;
 import discount.Discount;
 import discount.RateBasedDiscount;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;

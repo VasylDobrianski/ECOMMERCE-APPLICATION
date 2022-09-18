@@ -1,8 +1,10 @@
+import balance.Balance;
+import balance.CustomerBalance;
+import balance.GiftCardBalance;
 import category.Category;
-import discount.AmountBasedDiscount;
 import discount.Discount;
-
 import java.util.Scanner;
+import java.util.UUID;
 
 public class Main {
     public static void main(String[] args) throws Exception {
@@ -48,15 +50,21 @@ public class Main {
                     }catch (Exception e){
                         System.out.println("Product could not print because category not found for product name: " + e.getMessage().split(",")[1]);
                     }
-
                     break;
 
                 case 2: //List Discount
                     for (Discount discount : StaticConstants.DISCOUNT_LIST){
-                        System.out.println("Current Discounts: " + discount.getName());
+                        System.out.println("Discount Name: " + discount.getName() + " discount threshold amount " + discount.getThresholdAmount());
                     }
                     break;
+
                 case 3: //See Balance
+                    CustomerBalance cBalance = findCustomerBalance(customer.getId());
+                    GiftCardBalance gBalance = findGiftCardBalance(customer.getId());
+                    double totalBalance = cBalance.getBalance()+gBalance.getBalance();
+                    System.out.println("Total Balance: " + totalBalance);
+                    System.out.println("Customer Balance: " + cBalance.getBalance());
+                    System.out.println("Gift Card Balance: " + gBalance.getBalance());
 
                     break;
                 case 4: //Add Balance
@@ -82,6 +90,33 @@ public class Main {
 
         }
 
+    }
+
+
+    private static CustomerBalance findCustomerBalance(UUID customerId){
+        for (Balance customerBalance : StaticConstants.CUSTOMER_BALANCE_LIST){
+            if (customerBalance.getCustomerId().toString().equals(customerId.toString())){
+                return (CustomerBalance) customerBalance;
+            }
+        }
+
+        CustomerBalance customerBalance = new CustomerBalance(customerId,0d);
+        StaticConstants.CUSTOMER_BALANCE_LIST.add(customerBalance);
+
+        return customerBalance;
+    }
+
+    public static GiftCardBalance findGiftCardBalance(UUID customerId){
+        for (Balance giftCardBalance : StaticConstants.GIFT_CARD_BALANCE_LIST){
+            if (giftCardBalance.getCustomerId().toString().equals(customerId.toString())){
+                return (GiftCardBalance) giftCardBalance;
+            }
+        }
+
+        GiftCardBalance giftCardBalance = new GiftCardBalance(customerId,0d);
+        StaticConstants.GIFT_CARD_BALANCE_LIST.add(giftCardBalance);
+
+        return giftCardBalance;
     }
 
     private static String[] prepareMenuOptions(){
