@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f982073c-0f4d-4219-b59c-b564a107302d" name="Changes" comment="Balance + Gift Card Balance methods created and adjusted">
+    <list default="true" id="f982073c-0f4d-4219-b59c-b564a107302d" name="Changes" comment="Balance + Gift Card Balance - continue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <updated>1662070404033</updated>
       <workItem from="1662070405216" duration="5441000" />
       <workItem from="1663442252580" duration="14803000" />
-      <workItem from="1663471742602" duration="16420000" />
+      <workItem from="1663471742602" duration="16466000" />
     </task>
     <task id="LOCAL-00001" summary="Address for Customer created">
       <created>1662072150338</created>
@@ -184,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663487583214</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Balance + Gift Card Balance - continue">
+      <created>1663488466137</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1663488466137</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +224,7 @@
     <MESSAGE value="Scanner(MENU) - Extended input selections" />
     <MESSAGE value="Potential exception added - Menu build (continue)" />
     <MESSAGE value="Balance + Gift Card Balance methods created and adjusted" />
-    <option name="LAST_COMMIT_MESSAGE" value="Balance + Gift Card Balance methods created and adjusted" />
+    <MESSAGE value="Balance + Gift Card Balance - continue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Balance + Gift Card Balance - continue" />
   </component>
 </project>
