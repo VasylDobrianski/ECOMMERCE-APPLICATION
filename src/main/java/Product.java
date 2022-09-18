@@ -1,3 +1,5 @@
+import category.Category;
+
 import java.util.UUID;
 
 public class Product {
@@ -42,4 +44,15 @@ public class Product {
         return categoryId;
     }
 
+    public String getCategoryName() throws Exception {
+        //Category ID --> goes to database --> checks all category IDs --> finds matching category to selected product
+
+        for (Category category : StaticConstants.CATEGORY_LIST){
+            if (getCategoryId().toString().equals(category.getId().toString())){
+                return category.getName();
+            }
+        }
+        throw new Exception("Category not found," + getName());
+        //null.[any string method] --> null pointer exception (NOTE LINE)
+    }
 }

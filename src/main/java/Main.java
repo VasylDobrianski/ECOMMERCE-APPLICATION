@@ -1,7 +1,11 @@
+import category.Category;
+import discount.AmountBasedDiscount;
+import discount.Discount;
+
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         DataGenerator.createCustomer();
         DataGenerator.createCategory();
@@ -31,13 +35,26 @@ public class Main {
 
             switch (menuSelection){
                 case 0: //List Categories
-
+                    for (Category category : StaticConstants.CATEGORY_LIST){
+                        System.out.println("Category Code:" + category.generateCategoryCode() + " Category Name: " + category.getName());
+                    }
                     break;
+
                 case 1: //List Products
+                    try {
+                        for (Product product : StaticConstants.PRODUCT_LIST){
+                            System.out.println("Product Name: " + product.getName() + " Product Category Name: " + product.getCategoryName());
+                        }
+                    }catch (Exception e){
+                        System.out.println("Product could not print because category not found for product name: " + e.getMessage().split(",")[1]);
+                    }
 
                     break;
-                case 2: //List Discount
 
+                case 2: //List Discount
+                    for (Discount discount : StaticConstants.DISCOUNT_LIST){
+                        System.out.println("Current Discounts: " + discount.getName());
+                    }
                     break;
                 case 3: //See Balance
 
