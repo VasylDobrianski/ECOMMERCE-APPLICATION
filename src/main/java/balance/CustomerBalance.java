@@ -10,7 +10,8 @@ public class CustomerBalance extends Balance{
 
     @Override
     public Double addBalance(Double additionalBalance) {
-        return null;
+        setBalance(getBalance() + additionalBalance);
+        return getBalance();
     }
 
 }

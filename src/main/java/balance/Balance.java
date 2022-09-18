@@ -22,5 +22,8 @@ public abstract class Balance {
         return balance;
     }
 
+    public void setBalance(Double balance) {
+        this.balance = balance;
+    }
 
 }
