@@ -16,7 +16,7 @@ import java.util.UUID;
 
 public class DataGenerator {
 
-       public static void createCustomer(){
+           public static void createCustomer(){
 
            Address address1Customer1 = new Address("7925","Jones Branch Dr","Suite 3300","22102","VA");
            Address address2Customer1 = new Address("3990","Raven Dr","Suite 1586","99863","FL");

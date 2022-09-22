@@ -1,7 +1,5 @@
 package com.company;
 
-import com.company.Address;
-
 import java.util.List;
 import java.util.UUID;
 
@@ -11,17 +9,6 @@ public class Customer {
     private String userName;
     private String email;
     private List<Address> address;
-
-    //overloaded constructors due to the need for two options
-
-
-    //type name;
-    //class=com.company.Address name=com.company.Address
-
-    //ArrayList<com.company.Address> abc = new ArrayList<>();
-    //List preferred - polymorphism
-    //Always put interface portion - Interface abc = new Class(); ---> polymorphism
-
 
     public Customer(UUID id, String userName, String email) {
         this.id = id;
@@ -35,7 +22,6 @@ public class Customer {
         this.email = email;
         this.address = address;
     }
-
 
     public UUID getId() {
         return id;
@@ -52,7 +38,4 @@ public class Customer {
     public List<Address> getAddress() {
         return address;
     }
-
-
-
 }

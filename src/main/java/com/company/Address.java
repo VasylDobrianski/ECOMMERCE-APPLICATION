@@ -35,5 +35,4 @@ public class Address {
     public String getState() {
         return state;
     }
-
 }

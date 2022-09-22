@@ -4,32 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f982073c-0f4d-4219-b59c-b564a107302d" name="Changes" comment="Product to cart completed - apply discount started">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/checkout/CheckoutService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/checkout/CustomerBalanceCheckoutServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/checkout/MixPaymentCheckoutServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/order/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/order/OrderServiceImpl.java" afterDir="false" />
+    <list default="true" id="f982073c-0f4d-4219-b59c-b564a107302d" name="Changes" comment="Checkout and Order - started and modified">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/DataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StaticConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/StaticConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/balance/Balance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/balance/Balance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/balance/CustomerBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/balance/CustomerBalance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/balance/GiftCardBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/balance/GiftCardBalance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/category/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/category/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/category/Electronic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/category/Electronic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/category/Furniture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/category/Furniture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/category/SkinCare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/category/SkinCare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/discount/AmountBasedDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/discount/AmountBasedDiscount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/discount/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/discount/Discount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/discount/RateBasedDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/discount/RateBasedDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +73,7 @@
       <workItem from="1663513946919" duration="2000" />
       <workItem from="1663858608911" duration="24000" />
       <workItem from="1663858670305" duration="212000" />
-      <workItem from="1663877187325" duration="5520000" />
+      <workItem from="1663877187325" duration="7022000" />
     </task>
     <task id="LOCAL-00001" summary="Address for Customer created">
       <created>1662072150338</created>
@@ -262,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663880822036</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Checkout and Order - started and modified">
+      <created>1663882932765</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1663882932765</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +291,7 @@
     <MESSAGE value="Cart - exceptions + methods added" />
     <MESSAGE value="Product to cart created + available count check added" />
     <MESSAGE value="Product to cart completed - apply discount started" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product to cart completed - apply discount started" />
+    <MESSAGE value="Checkout and Order - started and modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checkout and Order - started and modified" />
   </component>
 </project>

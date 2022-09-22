@@ -69,4 +69,7 @@ public class Product {
     }
 
 
+    public void setRemainingStock(Integer remainingStock) {
+        this.remainingStock = remainingStock;
+    }
 }
