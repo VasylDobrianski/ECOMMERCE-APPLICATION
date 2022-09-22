@@ -165,7 +165,7 @@ public class Main {
             cart.getProductMap().put(product,cartCount+count);
             return true;
 
-        } else if (product.getRemainingStock()>count){
+        } else if (product.getRemainingStock()>=count){
             cart.getProductMap().put(product,count);
             return true;
         }
