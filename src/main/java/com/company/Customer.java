@@ -1,4 +1,7 @@
-import java.util.ArrayList;
+package com.company;
+
+import com.company.Address;
+
 import java.util.List;
 import java.util.UUID;
 
@@ -13,9 +16,9 @@ public class Customer {
 
 
     //type name;
-    //class=Address name=Address
+    //class=com.company.Address name=com.company.Address
 
-    //ArrayList<Address> abc = new ArrayList<>();
+    //ArrayList<com.company.Address> abc = new ArrayList<>();
     //List preferred - polymorphism
     //Always put interface portion - Interface abc = new Class(); ---> polymorphism
 
